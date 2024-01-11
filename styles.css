@@ -1,0 +1,104 @@
+h1 {
+  font-family: 'Libre Baskerville', serif;
+  text-align: center;
+  font-weight: bolder;
+}
+
+.colorguide {
+  border: 2px solid black;
+  border-collapse: collapse;
+  margin: auto;
+}
+
+.colorguide th, 
+.colorguide td {
+  border: 1px solid black;
+  font-family: Baskerville, serif;
+  text-align: center;
+  padding: 10px;
+}
+
+.colorguide th {
+  background-color: #ccc;
+  font-size: 18px;
+  border: 2px solid black;
+}
+
+.colorguide td:nth-child(1) {
+  font-style: italic;
+  line-height: 1.3;
+}
+
+.colorguide td:nth-child(2) {
+  width: 250px;
+}
+
+.colorguide td:nth-child(3) {
+  font-size: 13px;
+}
+
+#red {
+  width: 25px;
+  height: 25px;
+  background-color: red;
+  margin: auto;
+  border-radius: 50%
+}
+
+#yellow {
+  background-color: yellow;
+  margin: auto;
+}
+
+#hexcolor {
+  width: 25px;
+  height: 25px;
+  background-color: #2345AB;
+  margin: auto;
+  border-radius: 50%
+}
+
+#rgbcolor {
+  width: 25px;
+  height: 25px;
+  background-color: rgb(140, 12, 200);
+  margin: auto;
+  border-radius: 50%
+}
+
+#hslcolor {
+  width: 25px;
+  height: 25px;
+  background-color: hsl(178, 70%, 30%);
+  margin: auto;
+  border-radius: 50%
+}
+
+#alphacolor1 {
+  width: 25px;
+  height: 25px;
+  background-color: rgba(140, 12, 200, 0.5);
+  margin: auto;
+  margin-left: 13px;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+}
+
+#alphacolor2 {
+  width: 25px;
+  height: 25px;
+  background-color: hsla(178, 70%, 30%, 0.5);
+  margin: auto;
+  margin-right: 13px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+}
+
+.code {
+  font-family: 'Space Mono', monospace;
+  background-color: hsl(0, 0%, 84%);
+  font-size: 12px;
+  width: 400px;
+}
